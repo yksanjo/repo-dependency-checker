@@ -1,0 +1,12 @@
+{
+  "name": "repo-dependency-checker",
+  "version": "1.0.0",
+  "description": "Check dependencies across your repositories",
+  "main": "src/index.js",
+  "bin": { "gh-deps": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "dependencies", "npm"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
